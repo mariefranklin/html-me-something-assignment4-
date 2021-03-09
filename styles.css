@@ -1,0 +1,41 @@
+p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 20px;
+    padding: 10px
+}
+
+#pageHeader {
+    background-color: cornflowerblue;
+    padding: 80px;
+    text-align: center;
+    font-family:cursive;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+}
+
+img {
+    max-width: 30%;
+    max-height: 30%;
+    align-items: center;
+    flex: center;
+    flex-basis: auto;
+    
+}
+
+.flexcontainer {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .flexcontainer {
+        display: block
+    }
+}
